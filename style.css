@@ -1,0 +1,100 @@
+/*MEDIA*/
+
+/*MOBILE*/
+@media screen and (max-width: 490px) {
+    .bodyindex {
+        background-color: rgba(177, 122, 20, 0.623);
+    }
+}
+
+/*HORIZONTAL*/
+@media screen and (orientation: landscape){
+    .titulocontacto {
+        text-decoration: overline;
+
+    }
+    
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 969px) {
+    .bodyindex {
+        background-color: rgba(163, 148, 81, 0.863);
+    }
+    .enlace{
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+/*INDEX*/
+.title-principal {
+    background-color: rgba(177, 179, 101, 0.644);
+    color: #ffface;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: end;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+.mb-5{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    background-color: #e6de96
+}
+
+
+
+.servicios{
+    background-color: #ddd199;
+
+}
+
+
+.home{
+    background-color: rgb(245, 245, 176);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulocontacto{
+    background-color: rgb(168, 153, 118);
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    line-height: 1.3 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulocontacto{
+    background-color: rgb(172, 158, 130);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    line-height: 1 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contac{
+    background-image: url(../imagenes/425b9349-581a-4f71-9f33-1b8a00de3803.jpg);
+}
+
+
+.formulario{
+    text-align: center;
+    background-color: rgb(167, 149, 114);
+    border: 1px solid rgb(194, 169, 140);
+    border-radius: 3px;
+}
